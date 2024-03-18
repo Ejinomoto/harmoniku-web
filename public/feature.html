@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HarmoniKu</title>
+    <link rel="icon" href="./img/logo-1.png">
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <header class="bg-white lg:bg-opacity-80 lg:py-2 py-1 absolute top-0 left-0 w-full flex items-center z-10">
+        <div class="container">
+          <div class="flex justify-between relative">
+            <div class="px-4">
+              <img src="./img/logo.png" class="h-16" alt="">
+            </div>
+            <div class="flex items-center px-4">
+              <nav id="nav-menu"
+                class="hidden absolute py-4 bg-white shadow-lg rounded-lg max-w-[500px] w-full right-0 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
+                <ul class="block lg:flex">
+                  <li class="group">
+                    <a href="index.html" class="text-1xl text-dark py-2 mx-8 flex group-hover:text-primary font-bold">Home</a>
+                  </li>
+                  <li class="group">
+                    <a href="index.html#main" class="text-1xl text-dark  py-2 mx-8 flex group-hover:text-primary font-bold">Main
+                      Feature</a>
+                  </li>
+                  <li class="group">
+                    <a href="feature.html"
+                      class="text-1xl text-dark py-2 mx-8 flex group-hover:text-primary font-bold">Application
+                      Feature</a>
+                  </li>
+                  <li class="group">
+                    <a href="contact.html"
+                      class="text-1xl text-dark py-2 mx-8 flex group-hover:text-primary font-bold">Contact
+                      Us</a>
+                  </li>
+                </ul> 
+              </nav>
+            </div>
+            <button id="burger" name="burger" type="button" class="block absolute right-4 w-7 top-5 lg:hidden">
+              <img src="./img/burger.png" alt="">
+          </button>
+          <button id="close" name="close" type="button" class="hidden absolute right-4 w-7 top-5 lg:hidden">
+              <img src="./img/close.png" alt="Close">
+          </button>
+          
+          </div>
+        </div>
+      </header>
+      <!-- Header End -->
+
+
+
+
+    <section id="app" class="pt-10 bg-cyan-100 pb-8">
+
+        <div class="flex justify-center">
+            <h1 class="font-bold text-2xl text-center pb-8 lg:text-4xl pt-20">Our Application Features</h1>
+        </div>
+        <div class="container">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-1 max-w-2xl lg:max-w-7xl lg:pt-12 lg:gap-4">
+                <div class="group px-3 lg:px-0">
+                    <img class="w-full aspect-square object-cover rounded-lg" src="./img/cardiac.png"
+                        alt="Image 1 Description">
+                    <h3 class="mt-2 text-lg  group-hover:text-primary lg:text-2xl font-semibold">Cardiac Monitoring</h3>
+                    <p class="text-xs  font-semibold text-gray-500 group-hover:text-gray-700 lg:text-xl lg:font-normal">
+                        Through
+                        Cexme - Health Smartwatch, check your ECG minimum once a week at 07.00 to 08.00 am. Combining
+                        your ECG data
+                        & Medical Record, Doctor will update your Risk Score for HAS-BLED and CHA2DS2- VASc</p>
+                </div>
+                <div class="group px-3 lg:px-0">
+                    <img class="w-full aspect-square object-cover rounded-lg" src="./img/early.png"
+                        alt="Image 2 Description">
+                    <h3 class="mt-2 text-lg  group-hover:text-primary lg:text-2xl font-semibold">Early Warning System
+                    </h3>
+                    <p class="text-xs font-semibold text-gray-500 group-hover:text-gray-700 lg:text-xl lg:font-normal">
+                        Beside ECG,
+                        Cexme - Health Smartwatch provide automatic vital signs update your Early Warning Score every
+                        hour: Blood
+                        Pressure, Heart Rate, Temperature, Blood Oxygen, and Respiratory Rate.
+
+                        If High Risk is detected, please contact your doctor immediately</p>
+                </div>
+                <div class="group px-3 lg:px-0">
+                    <img class="w-full aspect-square object-cover rounded-lg" src="./img/pacemaker.png"
+                        alt="Image 3 Description">
+                    <h3 class="mt-2 text-lg  group-hover:text-primary lg:text-2xl font-semibold">My Pacemaker</h3>
+                    <p class="text-xs font-semibold text-gray-500 group-hover:text-gray-700 lg:text-xl lg:font-normal">
+                        Pacemaker is your vital device. Please update your Pacemaker device via your doctor, and update
+                        your battery
+                        status via Cexme - Health Smartwatch.
+
+                        If anything happen without your regular doctor, just show this updated Pacemaker status.</p>
+                </div>
+                <div class="group px-3 lg:px-0">
+                    <img class="w-full aspect-square object-cover rounded-lg" src="./img/7.png"
+                        alt="Image 4 Description">
+                    <h3 class="mt-2 text-lg group-hover:text-primary lg:text-2xl font-semibold">IoMT - Health Tracker
+                    </h3>
+                    <p class="text-xs font-semibold text-gray-500 group-hover:text-gray-700 lg:text-xl lg:font-normal">
+                        To provide
+                        easy and automatic health data update, Harmoni is connected to health tracker: Cexme - Health
+                        Smartwatch.
+
+                        Soon, Harmoni will be connected to other Smartwatch, Body Analyzer Scale, Blood Glucose, etc.
+                    </p>
+                </div>
+                <div class="group px-3 lg:px-0">
+                    <img class="w-full aspect-square object-cover rounded-lg" src="./img/consul.png"
+                        alt="Image 1 Description">
+                    <h3 class="mt-2 text-lg  group-hover:text-primary lg:text-2xl font-semibold">Teleconsultation</h3>
+                    <p class="text-xs  font-semibold text-gray-500 group-hover:text-gray-700 lg:text-xl lg:font-normal">
+                        In case you are not feeling well, or receiving High Risk Status, but you can not go to hospital,
+                        just do Teleconsultation to your doctor via application.
+
+                        Please relax, upon your approval, your doctor can read your daily medical record in this
+                        application</p>
+                </div>
+                <div class="group px-3 lg:px-0">
+                    <img class="w-full aspect-square object-cover rounded-lg" src="./img/record.png"
+                        alt="Image 2 Description">
+                    <h3 class="mt-2 text-lg  group-hover:text-primary lg:text-2xl font-semibold">Medical Record</h3>
+                    <p class="text-xs font-semibold text-gray-500 group-hover:text-gray-700 lg:text-xl lg:font-normal">
+                        As a Mobile Medical Record that receive continuous Vital Sign & ECG from Cexme - Health
+                        Smartwatch, data from your Pacemaker, and the Diagnosis after Teleconsultation, you can add your
+                        own Medical Record such as Rontgen, Medicine, Labtest, Genome, USG, and Personal Note.
+                    </p>
+                </div>
+                <div class="group px-3 lg:px-0">
+                    <img class="w-full aspect-square object-cover rounded-lg" src="./img/screening.png"
+                        alt="Image 3 Description">
+                    <h3 class="mt-2 text-lg  group-hover:text-primary lg:text-2xl font-semibold">Health Screening</h3>
+                    <p class="text-xs font-semibold text-gray-500 group-hover:text-gray-700 lg:text-xl lg:font-normal">
+                        This feature is for checking your potential Heart Disease or Stroke.
+
+                        You can check via Questionnaire for your previous health data. But for current data, you can
+                        check via Cexme - Health Smartwatch. Just Fill in your sleeping time, and wear the smartwatch
+                        for 7x24 hours, then you can get the analysis. </p>
+                </div>
+                <div class="group px-3 lg:px-0">
+                    <img class="w-full aspect-square object-cover rounded-lg" src="./img/sport.png"
+                        alt="Image 4 Description">
+                    <h3 class="mt-2 text-lg group-hover:text-primary lg:text-2xl font-semibold">Sport Monitoring</h3>
+                    <p class="text-xs font-semibold text-gray-500 group-hover:text-gray-700 lg:text-xl lg:font-normal">
+                        To maintain your health and to avoid sudden heart attack during sport activity, please use your
+                        sport monitoring to control your heart rate.
+
+                        There are 2 lines, green & red. You are on sport mode when you reach green line. But, for
+                        safety, please take a rest if you pass the red line.</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section id="contact" class="pt-0 bg-[#F8C954] pb-20">
+        <div class="flex justify-center">
+            <img src="./img/banner_foot.jpg" class="w-full" alt="">
+        </div>
+        <div class="container justify-center">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-1 max-w-2xl lg:max-w-7xl lg:gap-4">
+
+                <div class="container justify-center py-2 pb-5">
+                    <h1 class="text-4xl font-bold mt-7 mb-3 lg:text-5xl lg:pb-16">Contact Us</h1>
+                    <div class="flex">
+                        <img src="./img/email.png" class="h-7 lg:h-14 flex" alt="">
+                        <h1 class="textnp-base font-bold pl-1 text-center lg:text-2xl lg:mt-2 lg:ml-1">
+                            rizza.harmoni@gmail.com</h1>
+                    </div>
+                </div>
+                <div class="container justify-center">
+                    <div class="grid grid-cols-2 gap-1 lg:grid-cols-2 lg:gap-4 max-w-6xl lg:max-w-7xl lg:pt-14">
+                        <div class="group px-0 border-black border-2 rounded-lg flex flex-col items-center pt-2"> <img
+                                class="lg:w-20 w-12 aspect-square" src="./img/buildings.png" alt="Image 1 Description">
+                            <h3 class="mt-2 text-lg lg:text-2xl font-bold text-center">K-LINK TOWER</h3>
+                            <p class="text-sm text-center pb-2 text-black font-semibold lg:text-xl lg:font-normal px-1">
+                                Jl. Gatot
+                                Subroto No. Kav 59A, Jakarta 12950 Indonesia.</p>
+                        </div>
+                        <div class="group px-0 border-black border-2 rounded-lg flex flex-col items-center pt-2"> <img
+                                class="lg:w-20  w-12 aspect-square" src="./img/whatsapp.png" alt="Image 1 Description">
+                            <h3 class="text-base lg:text-2xl font-bold pt-5">+62 81111-33-966</h3>
+                            <h3 class="text-base lg:text-2xl font-bold pt-2">+62 815-9006-588</h3>
+                        </div>
+                    </div>
+                </div>
+
+    </section>
+
+    <!-- Third 2 End -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>

@@ -36,8 +36,8 @@ To get a local copy up and running, follow these simple steps.
 
 ### Clone the repository
 
-git clone https://github.com/your-username/harmoniku.git
-cd harmoniku
+git clone https://github.com/ejinomoto/harmoniku-web.git
+cd harmoniku-web
 
 ### Install Dependencies (if applicable for frontend build)
 
